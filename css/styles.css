@@ -75,6 +75,20 @@ ul {
     font-variant: small-caps;
 }
 
+.nav_menu {
+    display: none;
+    color: #7d97ad;
+    fill: #7d97ad;
+}
+
+.nav_menu:hover {
+    cursor: pointer;
+    color: #2d3c49;
+    fill: #2d3c49;
+    transform: scale(1.2);
+    transition: fill 0.3s ease-out, color 0.3s ease-out;
+}
+
 /* Navigation bar styles
  * ================================= */
 .nav {
@@ -177,6 +191,7 @@ ul {
 
 .work_image {
     width: 100%;
+    max-width: 280px;
     max-height: 180px;
     border: 1px solid #7d97ad;
     border-radius: 16px;
@@ -282,13 +297,17 @@ ul {
 }
 
 .footer_contact {
-    padding: 0.4em 4% 1em 1em;
+    padding: 0.4em 1em 1em 1em;
 }
 
 .contact_title {
     font-size: 110%;
     text-align: center;
     padding-bottom: 2px;
+}
+
+.contact_img {
+    width: 16px;
 }
 
 .footer a {
